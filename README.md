@@ -36,6 +36,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0054-spiral-matrix](https://github.com/omvarpe08/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/omvarpe08/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
@@ -59,5 +60,10 @@
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/omvarpe08/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0054-spiral-matrix](https://github.com/omvarpe08/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 <!---LeetCode Topics End-->
