@@ -20,6 +20,7 @@
 | [0088-merge-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/omvarpe08/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
+| [0283-move-zeroes](https://github.com/omvarpe08/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -64,6 +65,7 @@
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
+| [0283-move-zeroes](https://github.com/omvarpe08/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/omvarpe08/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0493-reverse-pairs](https://github.com/omvarpe08/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/omvarpe08/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
