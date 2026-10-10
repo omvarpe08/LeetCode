@@ -60,6 +60,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0136-single-number](https://github.com/omvarpe08/LeetCode/tree/main/0136-single-number/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/omvarpe08/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
+| [0169-majority-element](https://github.com/omvarpe08/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
@@ -74,6 +75,7 @@
 | [0001-two-sum](https://github.com/omvarpe08/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/omvarpe08/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0169-majority-element](https://github.com/omvarpe08/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/omvarpe08/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -96,6 +98,7 @@
 | [0056-merge-intervals](https://github.com/omvarpe08/LeetCode/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/omvarpe08/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0088-merge-sorted-array/) | Easy |
+| [0169-majority-element](https://github.com/omvarpe08/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 ## Simulation
@@ -122,14 +125,17 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/omvarpe08/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
+| [0169-majority-element](https://github.com/omvarpe08/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0493-reverse-pairs](https://github.com/omvarpe08/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/omvarpe08/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/omvarpe08/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
