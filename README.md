@@ -23,6 +23,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0118-pascals-triangle](https://github.com/omvarpe08/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
 | [0509-fibonacci-number](https://github.com/omvarpe08/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -37,6 +38,7 @@
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0054-spiral-matrix](https://github.com/omvarpe08/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
+| [0118-pascals-triangle](https://github.com/omvarpe08/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/omvarpe08/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
