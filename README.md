@@ -54,6 +54,7 @@
 | [0075-sort-colors](https://github.com/omvarpe08/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0118-pascals-triangle](https://github.com/omvarpe08/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
+| [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/omvarpe08/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
@@ -66,6 +67,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/omvarpe08/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/omvarpe08/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 ## Binary Search
@@ -138,4 +140,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/omvarpe08/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
