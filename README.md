@@ -27,6 +27,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/omvarpe08/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0118-pascals-triangle](https://github.com/omvarpe08/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
 | [0509-fibonacci-number](https://github.com/omvarpe08/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Recursion
@@ -45,6 +46,7 @@
 | [0018-4sum](https://github.com/omvarpe08/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0048-rotate-image](https://github.com/omvarpe08/LeetCode/tree/main/0048-rotate-image/) | Medium |
+| [0053-maximum-subarray](https://github.com/omvarpe08/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/omvarpe08/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/omvarpe08/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0075-sort-colors](https://github.com/omvarpe08/LeetCode/tree/main/0075-sort-colors/) | Medium |
@@ -93,4 +95,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/omvarpe08/LeetCode/tree/main/0075-sort-colors/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/omvarpe08/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 <!---LeetCode Topics End-->
