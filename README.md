@@ -61,6 +61,7 @@
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/omvarpe08/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0493-reverse-pairs](https://github.com/omvarpe08/LeetCode/tree/main/0493-reverse-pairs/) | Hard |
+| [0560-subarray-sum-equals-k](https://github.com/omvarpe08/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -70,6 +71,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0229-majority-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
+| [0560-subarray-sum-equals-k](https://github.com/omvarpe08/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -144,4 +146,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/omvarpe08/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 <!---LeetCode Topics End-->
