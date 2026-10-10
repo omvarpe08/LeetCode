@@ -15,6 +15,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/omvarpe08/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
+| [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -38,6 +39,7 @@
 | [0189-rotate-array](https://github.com/omvarpe08/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/omvarpe08/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
+| [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,4 +56,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0268-missing-number](https://github.com/omvarpe08/LeetCode/tree/main/0268-missing-number/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 <!---LeetCode Topics End-->
