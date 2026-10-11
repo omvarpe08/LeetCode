@@ -11,15 +11,19 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        if(head == NULL || head->next == NULL) {
-            return head;
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+
+        while (curr != nullptr) {
+            ListNode* nextNode = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nextNode;
         }
 
-        ListNode* newNode = reverseList(head->next);
-        ListNode* front = head->next;
-        front->next = head;
-        head->next = NULL;
-        return newNode;
+        return prev;
     }
 };
-//Optimal - 2 (Recursive)
+//Optimal - 1 (Itretive)
+//TC = O(N)
+//SC = O(1)
