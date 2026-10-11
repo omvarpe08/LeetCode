@@ -34,8 +34,7 @@ public:
             carry = sum / 10;
             num = sum % 10;
 
-            ListNode* newNode = new ListNode(num);
-            temp->next = newNode;
+            temp->next = new ListNode(num);
             temp = temp->next;
 
         }
