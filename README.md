@@ -16,6 +16,7 @@
 | ------- | ------- |
 | [0015-3sum](https://github.com/omvarpe08/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/omvarpe08/LeetCode/tree/main/0018-4sum/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/omvarpe08/LeetCode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0075-sort-colors](https://github.com/omvarpe08/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/omvarpe08/LeetCode/tree/main/0088-merge-sorted-array/) | Easy |
@@ -173,5 +174,6 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/omvarpe08/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/omvarpe08/LeetCode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0328-odd-even-linked-list](https://github.com/omvarpe08/LeetCode/tree/main/0328-odd-even-linked-list/) | Medium |
 <!---LeetCode Topics End-->
