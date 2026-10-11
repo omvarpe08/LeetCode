@@ -41,3 +41,6 @@ public:
         return dummy->next;
     }
 };
+
+//TC = O(max(n1 , n2))      n1 - no of node in 1st LL
+//SC = O(max(n1 , n2))      n2 - no of node in 2nd LL
