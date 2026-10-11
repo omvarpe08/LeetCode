@@ -12,71 +12,33 @@ class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
-        ListNode* temp1 = l1;
-        ListNode* temp2 = l2;
+        ListNode* dummy = new ListNode(0);
+        ListNode* temp = dummy;
         int sum;
         int num;
-        int rem = 0;
-        ListNode* head = nullptr;
-        ListNode* temp = nullptr;
+        int carry = 0;
 
-        while (temp1 != NULL && temp2 != NULL) {
-            sum = temp1->val + temp2->val + rem;
-            num = sum % 10;
-            rem = sum / 10;
+        while(l1 != NULL || l2 != NULL || carry != 0){
+            sum = carry;
 
-            if (head == nullptr) {
-                ListNode* newNode = new ListNode(num);
-                head = newNode;
-                temp = head;
-                temp1 = temp1->next;
-                temp2 = temp2->next;
-                continue;
+            if(l1 != NULL) {
+                sum += l1->val;
+                l1 = l1->next;
             }
-            if (head == nullptr)
-                return head;
 
-            ListNode* newNode = new ListNode(num);
-            temp->next = newNode;
-            temp = temp->next;
+            if(l2 != NULL) {
+                sum += l2->val;
+                l2 = l2->next;
+            }
 
-            temp1 = temp1->next;
-            temp2 = temp2->next;
-        }
-
-        while(temp1 != NULL) {
-            sum = temp1->val + rem;
+            carry = sum / 10;
             num = sum % 10;
-            rem = sum / 10;
 
             ListNode* newNode = new ListNode(num);
             temp->next = newNode;
             temp = temp->next;
 
-            temp1 = temp1->next;
         }
-
-        while(temp2 != NULL) {
-            sum = temp2->val + rem;
-            num = sum % 10;
-            rem = sum / 10;
-
-            ListNode* newNode = new ListNode(num);
-            temp->next = newNode;
-            temp = temp->next;
-
-            temp2 = temp2->next;
-        }
-
-        if(rem != 0) {
-            ListNode* newNode = new ListNode(rem);
-            temp->next = newNode;
-            newNode = nullptr;
-        }
-        else {
-            temp->next = nullptr;
-        }
-
-        return head;
+        return dummy->next;
     }
 };
