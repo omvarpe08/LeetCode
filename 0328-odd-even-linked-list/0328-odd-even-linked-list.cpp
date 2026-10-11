@@ -20,3 +20,6 @@ public:
         return head;
     }
 };
+
+//TC = O(N/2) * 2 = O(N)
+//SC = O(1)
