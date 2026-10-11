@@ -13,7 +13,7 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
         ListNode* dummy = new ListNode(0);
-        ListNode* temp = dummy;
+        ListNode* curr = dummy;
         int sum;
         int num;
         int carry = 0;
@@ -34,8 +34,8 @@ public:
             carry = sum / 10;
             num = sum % 10;
 
-            temp->next = new ListNode(num);
-            temp = temp->next;
+            curr->next = new ListNode(num);
+            curr = curr->next;
 
         }
         return dummy->next;
