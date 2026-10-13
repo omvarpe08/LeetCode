@@ -1,12 +1,9 @@
-
-#include <queue>
-using namespace std;
-
 class MyStack {
     queue<int> q;
 
 public:
-    MyStack() {}
+    MyStack() {
+    }
 
     void push(int x) {
         q.push(x);
@@ -19,15 +16,12 @@ public:
     }
 
     int pop() {
-        if (q.empty()) return -1;
-
         int val = q.front();
         q.pop();
         return val;
     }
 
     int top() {
-        if (q.empty()) return -1;
         return q.front();
     }
 
@@ -37,6 +31,15 @@ public:
 };
 
 
-//TC = O(N) ...for push operation
-//TC = O(1) ...for all other operation except push
-//SC = O(N)  
+// TC = O(N) ..for push operation
+// TC = O(1) ..for all other operation except push
+// SC = O(N) 
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack* obj = new MyStack();
+ * obj->push(x);
+ * int param_2 = obj->pop();
+ * int param_3 = obj->top();
+ * bool param_4 = obj->empty();
+ */
