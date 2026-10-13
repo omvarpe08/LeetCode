@@ -178,4 +178,16 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/omvarpe08/LeetCode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/omvarpe08/LeetCode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0328-odd-even-linked-list](https://github.com/omvarpe08/LeetCode/tree/main/0328-odd-even-linked-list/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0225-implement-stack-using-queues](https://github.com/omvarpe08/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0225-implement-stack-using-queues](https://github.com/omvarpe08/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0225-implement-stack-using-queues](https://github.com/omvarpe08/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
 <!---LeetCode Topics End-->
