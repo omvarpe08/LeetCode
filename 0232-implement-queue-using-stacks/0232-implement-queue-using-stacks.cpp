@@ -37,6 +37,13 @@ public:
 //TC = O(2N) ...for push operation
 //TC = O(1)  ...for all other operation except push
 //SC = O(2n)
+
+//This will be expensive if i have lot of push operations in my problem statement. bcoz here push is taking lot of time to push. thus for bunch of push operations this might be expensive.
+
+// thus depending upon problem statement if our PS have very limited push operation then we can use it. but if we have significantly higher push operations than the top & pop then we are going for approch 2 where push is gonna take lesser time and top & pop are gonna take more time.
+
+//thus 2nd approch going to focus on optimizing the push oprations assuming that we are doing lot of push operations & we are making top & pop operations expensive
+
 /**
  * Your MyQueue object will be instantiated and called as such:
  * MyQueue* obj = new MyQueue();
