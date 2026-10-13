@@ -29,10 +29,14 @@ public:
     }
     
     bool empty() {
-        return s1.size() == 0;
+        return s1.empty();
+        //return s1.size() == 0;
     }
 };
 
+//TC = O(2N) ...for push operation
+//TC = O(1)  ...for all other operation except push
+//SC = O(2n)
 /**
  * Your MyQueue object will be instantiated and called as such:
  * MyQueue* obj = new MyQueue();
