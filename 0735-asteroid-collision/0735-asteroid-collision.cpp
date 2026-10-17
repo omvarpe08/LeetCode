@@ -10,7 +10,7 @@ public:
                 st.push_back(asteroids[i]);
             }
             else {
-                while(!st.empty() && st.back() < -asteroids[i] && st.back() > 0) {
+                while(!st.empty() && st.back() > 0 && st.back() < -asteroids[i]) {
                     st.pop_back();
                 }
                 if(!st.empty() && st.back() == -asteroids[i]) {
@@ -24,3 +24,7 @@ public:
         return st;
     }
 };
+
+//TC = O(N + N) = O(2N)   ...for + while (we are doing pop in while & we can push maxm n element in stack thus we can pop maxm n element thus while can run maxm n times thus O(N))
+
+//SC = O(N) ...st
