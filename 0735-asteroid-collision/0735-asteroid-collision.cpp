@@ -1,51 +1,26 @@
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        vector<int> ans;
-        stack<int> st;
+        vector<int> st;
+        
         int n = asteroids.size();
 
-        for(int i=n-1; i>=0; i--) {
-            if(st.empty()) {
-                st.push(asteroids[i]);
-            }
-
-            else if(asteroids[i]<0 ) {
-                st.push(asteroids[i]);
-            }
-
-            else if(asteroids[i]>0 && st.top()<0 ) {
-                if(asteroids[i] > -st.top()) {
-                    while(!st.empty() && st.top()<0 && asteroids[i] > -st.top()) {
-                        st.pop();
-    
-                    }
-                    if(!st.empty() && asteroids[i] == -st.top()) {
-                        st.pop();
-                    }
-                    else if(!st.empty() && asteroids[i] < -st.top()) {
-                        continue;
-                    }
-                    else {
-                        st.push(asteroids[i]);
-                    }
-                    
-                }
-                else if(asteroids[i] == -st.top()) {
-                    st.pop();
-                }
-                else if (asteroids[i] < -st.top()) {
-                    continue;
-                }
+        for(int i=0; i<n; i++) {
+            if(asteroids[i] > 0) {
+                st.push_back(asteroids[i]);
             }
             else {
-                st.push(asteroids[i]);
+                while(!st.empty() && st.back() < -asteroids[i] && st.back() > 0) {
+                    st.pop_back();
+                }
+                if(!st.empty() && st.back() == -asteroids[i]) {
+                    st.pop_back();
+                }
+                else if(st.empty() || st.back() < 0) {
+                    st.push_back(asteroids[i]);
+                }
             }
         }
-        while(!st.empty()){
-            ans.push_back(st.top());
-            st.pop();
-        }
-        return ans;
+        return st;
     }
 };
