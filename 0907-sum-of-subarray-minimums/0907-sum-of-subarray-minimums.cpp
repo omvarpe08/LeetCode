@@ -1,10 +1,15 @@
 class Solution {
 public:
-    int sumSubarrayMins(vector<int> &arr) {
+    int sumSubarrayMins(vector<int>& arr) {
         int n = arr.size();
-        vector<int> nse(n);
-        stack<int> st;
+        long long mod = 1e9 + 7;
+        long long sum = 0;
 
+        stack<int> st;
+        vector<int> nse(n);
+        vector<int> pse(n);
+
+        // Next Smaller Element (NSE)
         for (int i = n - 1; i >= 0; i--) {
             while (!st.empty() && arr[st.top()] >= arr[i]) {
                 st.pop();
@@ -19,36 +24,37 @@ public:
             st.push(i);
         }
 
-        vector<int> pse(n);
-        stack<int> st1;
+        while (!st.empty()) {
+            st.pop();
+        }
 
+        // Previous Smaller Element (PSE)
         for (int i = 0; i < n; i++) {
-            while (!st1.empty() && arr[st1.top()] > arr[i]) {
-                st1.pop();
+            while (!st.empty() && arr[st.top()] > arr[i]) {
+                st.pop();
             }
 
-            if (st1.empty()) {
+            if (st.empty()) {
                 pse[i] = -1;
             } else {
-                pse[i] = st1.top();
+                pse[i] = st.top();
             }
 
-            st1.push(i);
+            st.push(i);
         }
-        int mod = 1e9 + 7;
-        long long total = 0;
-        for(int i=0; i<n; i++) {
-            int l = pse[i];
-            int r = nse[i];
 
-            int l1 = i-l;
-            int r1= r-i;
+        // Calculate each element's contribution
+        for (int i = 0; i < n; i++) {
+            long long left = i - pse[i];
+            long long right = nse[i] - i;
 
-            long long sum = (long long)l1*r1*arr[i];
-
-            total = (total + sum) % mod;
-
+            long long contribution = arr[i] * left * right;
+            sum = (sum + contribution) % mod;
         }
-        return total;
+
+        return sum;
     }
 };
+
+//TC = O(5N) ...NSE(for+while)(N+N) + PSE(for+while)(N+N) + for(N)
+//SC = O(3N) ...NSE + PSE + st
