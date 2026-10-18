@@ -29,6 +29,7 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/omvarpe08/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0125-valid-palindrome](https://github.com/omvarpe08/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
+| [0402-remove-k-digits](https://github.com/omvarpe08/LeetCode/tree/main/0402-remove-k-digits/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -190,6 +191,7 @@
 | [0020-valid-parentheses](https://github.com/omvarpe08/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0225-implement-stack-using-queues](https://github.com/omvarpe08/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/omvarpe08/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
+| [0402-remove-k-digits](https://github.com/omvarpe08/LeetCode/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/omvarpe08/LeetCode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0735-asteroid-collision](https://github.com/omvarpe08/LeetCode/tree/main/0735-asteroid-collision/) | Medium |
@@ -210,6 +212,11 @@
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/omvarpe08/LeetCode/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/omvarpe08/LeetCode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0503-next-greater-element-ii/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0402-remove-k-digits](https://github.com/omvarpe08/LeetCode/tree/main/0402-remove-k-digits/) | Medium |
 <!---LeetCode Topics End-->
