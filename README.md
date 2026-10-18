@@ -81,6 +81,7 @@
 | [0704-binary-search](https://github.com/omvarpe08/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0735-asteroid-collision](https://github.com/omvarpe08/LeetCode/tree/main/0735-asteroid-collision/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/omvarpe08/LeetCode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [2104-sum-of-subarray-ranges](https://github.com/omvarpe08/LeetCode/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/omvarpe08/LeetCode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -198,6 +199,7 @@
 | [0503-next-greater-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0735-asteroid-collision](https://github.com/omvarpe08/LeetCode/tree/main/0735-asteroid-collision/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/omvarpe08/LeetCode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [2104-sum-of-subarray-ranges](https://github.com/omvarpe08/LeetCode/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -219,6 +221,7 @@
 | [0496-next-greater-element-i](https://github.com/omvarpe08/LeetCode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/omvarpe08/LeetCode/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/omvarpe08/LeetCode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [2104-sum-of-subarray-ranges](https://github.com/omvarpe08/LeetCode/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
