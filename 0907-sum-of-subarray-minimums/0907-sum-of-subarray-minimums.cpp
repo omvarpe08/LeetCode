@@ -63,3 +63,7 @@ public:
         return sum;
     }
 };
+
+//2
+//TC = O(5N) ...NSE(for+while)(N+N) + PSE(for+while)(N+N) + for(N)
+//SC = O(5N) ...NSE + PSE + next + prev + st
