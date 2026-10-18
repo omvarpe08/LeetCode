@@ -1,52 +1,60 @@
 class Solution {
 public:
-    int sumSubarrayMins(vector<int>& arr) {
+    vector<int> nse(vector<int>& arr) {
         int n = arr.size();
-        long long mod = 1e9 + 7;
-        long long sum = 0;
-
+        vector<int> ans(n);
         stack<int> st;
-        vector<int> nse(n);
-        vector<int> pse(n);
 
-        // Next Smaller Element (NSE)
         for (int i = n - 1; i >= 0; i--) {
             while (!st.empty() && arr[st.top()] >= arr[i]) {
                 st.pop();
             }
 
             if (st.empty()) {
-                nse[i] = n;
+                ans[i] = n;
             } else {
-                nse[i] = st.top();
+                ans[i] = st.top();
             }
 
             st.push(i);
         }
 
-        while (!st.empty()) {
-            st.pop();
-        }
+        return ans;
+    }
 
-        // Previous Smaller Element (PSE)
+    vector<int> pse(vector<int>& arr) {
+        int n = arr.size();
+        vector<int> ans(n);
+        stack<int> st;
+
         for (int i = 0; i < n; i++) {
             while (!st.empty() && arr[st.top()] > arr[i]) {
                 st.pop();
             }
 
             if (st.empty()) {
-                pse[i] = -1;
+                ans[i] = -1;
             } else {
-                pse[i] = st.top();
+                ans[i] = st.top();
             }
 
             st.push(i);
         }
 
-        // Calculate each element's contribution
+        return ans;
+    }
+
+    int sumSubarrayMins(vector<int>& arr) {
+        int n = arr.size();
+        long long mod = 1e9 + 7;
+        long long sum = 0;
+
+        vector<int> next = nse(arr);
+        vector<int> prev = pse(arr);
+
         for (int i = 0; i < n; i++) {
-            long long left = i - pse[i];
-            long long right = nse[i] - i;
+            long long left = i - prev[i];
+            long long right = next[i] - i;
 
             long long contribution = arr[i] * left * right;
             sum = (sum + contribution) % mod;
@@ -55,6 +63,3 @@ public:
         return sum;
     }
 };
-
-//TC = O(5N) ...NSE(for+while)(N+N) + PSE(for+while)(N+N) + for(N)
-//SC = O(3N) ...NSE + PSE + st
