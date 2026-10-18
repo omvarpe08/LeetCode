@@ -1,8 +1,8 @@
 class Solution {
 public:
-    vector<int> nse(vector<int>& nums) {
+    vector<int> findNSE(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n);
+        vector<int> nse(n);
         stack<int> st;
 
         for (int i = n - 1; i >= 0; i--) {
@@ -11,20 +11,20 @@ public:
             }
 
             if (st.empty()) {
-                ans[i] = n;
+                nse[i] = n;
             } else {
-                ans[i] = st.top();
+                nse[i] = st.top();
             }
 
             st.push(i);
         }
 
-        return ans;
+        return nse;
     }
 
-    vector<int> pse(vector<int>& nums) {
+    vector<int> findPSE(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n);
+        vector<int> pse(n);
         stack<int> st;
 
         for (int i = 0; i < n; i++) {
@@ -33,20 +33,20 @@ public:
             }
 
             if (st.empty()) {
-                ans[i] = -1;
+                pse[i] = -1;
             } else {
-                ans[i] = st.top();
+                pse[i] = st.top();
             }
 
             st.push(i);
         }
 
-        return ans;
+        return pse;
     }
 
-    vector<int> nle(vector<int>& nums) {
+    vector<int> findNGE(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n);
+        vector<int> nge(n);
         stack<int> st;
 
         for (int i = n - 1; i >= 0; i--) {
@@ -55,21 +55,20 @@ public:
             }
 
             if (st.empty()) {
-                ans[i] = n;
+                nge[i] = n;
             } else {
-                ans[i] = st.top();
+                nge[i] = st.top();
             }
 
             st.push(i);
         }
 
-        return ans;
+        return nge;
     }
 
-
-    vector<int> ple(vector<int>& nums) {
+    vector<int> findPGE(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n);
+        vector<int> pge(n);
         stack<int> st;
 
         for (int i = 0; i < n; i++) {
@@ -78,44 +77,42 @@ public:
             }
 
             if (st.empty()) {
-                ans[i] = -1;
+                pge[i] = -1;
             } else {
-                ans[i] = st.top();
+                pge[i] = st.top();
             }
 
             st.push(i);
         }
 
-        return ans;
+        return pge;
     }
 
-
-    long long subArrayRanges(vector<int> &nums) {
+    long long subArrayRanges(vector<int>& nums) {
         int n = nums.size();
-        long long mod = 1e9 + 7;
-        long long sum_l = 0;
-        long long sum_s = 0;
 
-        vector<int> next_s = nse(nums);
-        vector<int> prev_s = pse(nums);
-        vector<int> next_l = nle(nums);
-        vector<int> prev_l = ple(nums);
+        vector<int> nse = findNSE(nums);
+        vector<int> pse = findPSE(nums);
+        vector<int> nge = findNGE(nums);
+        vector<int> pge = findPGE(nums);
+
+        long long sumMin = 0;
+        long long sumMax = 0;
 
         for (int i = 0; i < n; i++) {
-            long long left = i - prev_s[i];
-            long long right = next_s[i] - i;
+            long long leftMin = i - pse[i];
+            long long rightMin = nse[i] - i;
 
-            long long contribution = (long long)nums[i] * left * right;
-            sum_s = (sum_s + contribution);
+            long long leftMax = i - pge[i];
+            long long rightMax = nge[i] - i;
 
-            left = i - prev_l[i];
-            right = next_l[i] - i;
-
-            contribution = (long long)nums[i] * left * right;
-            sum_l = (sum_l + contribution);
+            sumMin += (long long)nums[i] * leftMin * rightMin;
+            sumMax += (long long)nums[i] * leftMax * rightMax;
         }
 
-        return sum_l-sum_s;
+        return sumMax - sumMin;
     }
 };
 
+//TC = O(10N) = O(N)
+//SC = O(10N) = O(N)
