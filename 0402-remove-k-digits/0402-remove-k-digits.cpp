@@ -2,7 +2,7 @@ class Solution {
 public:
     string removeKdigits(string num, int k) {
         int n = num.size();
-        stack<char> st;
+        stack<int> st;
         string ans = "";
 
         if(k==n) {
