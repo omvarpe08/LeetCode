@@ -19,15 +19,19 @@ public:
 
         int leftSum = max(0 , maxSum(root->left, sum));
         int rightSum = max(0 , maxSum(root->right, sum));
-        sum = max(sum , leftSum+rightSum+root->val);
+        sum = max(sum , leftSum + rightSum + root->val);
 
-        return max(leftSum+root->val , rightSum + root->val);
+        return max(leftSum + root->val , rightSum + root->val);
     }
 
     int maxPathSum(TreeNode* root) {
         int s = INT_MIN;
         maxSum(root , s);
-
         return s;
     }
 };
+
+//TC = O(N)   ...travesing all nodes
+
+//SC: O(H) auxiliary space for recursion, where H is the tree height. 
+//worst case : Degenerate (Skewed) Binary Tree O(N), Best Case : balanced tree O(log N).
