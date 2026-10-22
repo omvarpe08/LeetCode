@@ -21,7 +21,7 @@ public:
         int rightSum = max(0 , maxSum(root->right, sum));
         sum = max(sum , leftSum + rightSum + root->val);
 
-        return max(leftSum + root->val , rightSum + root->val);
+        return root->val + max(leftSum , rightSum);
     }
 
     int maxPathSum(TreeNode* root) {
