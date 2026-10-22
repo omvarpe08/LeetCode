@@ -11,23 +11,29 @@
  */
 class Solution {
 public:
-    bool isSym(TreeNode* left , TreeNode* right) {
-
-        if(right == NULL || left == NULL) {
-            return right == left;
+    bool isMirror(TreeNode* left, TreeNode* right) {
+        if (left == NULL || right == NULL) {
+            return left == right;
         }
-        
+
         if(left->val != right->val) {
             return false;
         }
 
-        return isSym(left->left , right->right) 
-        && isSym(left->right , right->left);
+        return isMirror(left->left, right->right)
+            && isMirror(left->right, right->left);
     }
-
-
 
     bool isSymmetric(TreeNode* root) {
-        return isSym(root->left , root->right);
+        if (root == NULL) {
+            return true;
+        }
+
+        return isMirror(root->left, root->right);
     }
 };
+
+//TC = O(N)   ...travesing all nodes
+
+//SC: O(H) auxiliary space for recursion, where H is the tree height. 
+//worst case : Degenerate (Skewed) Binary Tree O(N), Best Case : balanced tree O(log N).
