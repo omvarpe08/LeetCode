@@ -16,17 +16,18 @@ public:
             return 0;
         }
 
-        int left = maxDepth(root->left);
-        int right = maxDepth(root->right);
+        int leftHeight = maxDepth(root->left);
+        int rightHeight = maxDepth(root->right);
 
-        if(abs(left-right) > 1) {
-            return -1;
-        }
-        if(left == -1 || right == -1) {
+        if(leftHeight == -1 || rightHeight == -1) {
             return -1;
         }
 
-        return 1 + max(left, right);
+        if(abs(leftHeight - rightHeight) > 1) {
+            return -1;
+        }
+
+        return 1 + max(leftHeight, rightHeight);
     }
 
     bool isBalanced(TreeNode* root) {
@@ -34,5 +35,12 @@ public:
 
     }
 };
+
+//Optimal
+
+//TC = O(N)   ...travesing all nodes
+
+//SC: O(H) auxiliary space for recursion, where \(H\) is the tree height. 
+//worst case : Degenerate (Skewed) Binary Tree O(N), Best Case : balanced tree O(log N).
 
 
