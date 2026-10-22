@@ -19,24 +19,20 @@ public:
         int left = maxDepth(root->left);
         int right = maxDepth(root->right);
 
+        if(abs(left-right) > 1) {
+            return -1;
+        }
+        if(left == -1 || right == -1) {
+            return -1;
+        }
+
         return 1 + max(left, right);
     }
 
     bool isBalanced(TreeNode* root) {
-        if(root == NULL) return true;
-        
-        int hl = maxDepth(root->left);
-        int hr = maxDepth(root->right);
-
-        if(abs(hl-hr) > 1 ) {
-            return false;
-        }
-
-        return isBalanced(root->left) && isBalanced(root->right);
+        return maxDepth(root) != -1;
 
     }
 };
 
-//TC: O(N^2) in the worst case, because maxDepth() is repeatedly called at each node.
-//SC: O(H) auxiliary space for recursion, where \(H\) is the tree height. 
-//worst case : Degenerate (Skewed) Binary Tree O(N), Best Case : balanced tree O(log N).
+
