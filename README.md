@@ -243,6 +243,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/omvarpe08/LeetCode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/omvarpe08/LeetCode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/omvarpe08/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [2236-root-equals-sum-of-children](https://github.com/omvarpe08/LeetCode/tree/main/2236-root-equals-sum-of-children/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -268,6 +269,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/omvarpe08/LeetCode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/omvarpe08/LeetCode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/omvarpe08/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [2236-root-equals-sum-of-children](https://github.com/omvarpe08/LeetCode/tree/main/2236-root-equals-sum-of-children/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
