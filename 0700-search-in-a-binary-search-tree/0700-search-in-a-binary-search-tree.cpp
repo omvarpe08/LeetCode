@@ -11,29 +11,16 @@
  */
 class Solution {
 public:
-
-    // void preorder(TreeNode* root, vector<int>& ans) {
-    //     if(root == NULL) {
-    //         return;
-    //     }
-    //     ans.push_back(root->val);
-    //     preorder(root->left , ans);
-    //     preorder(root->right , ans);
-    // }
     TreeNode* searchBST(TreeNode* root, int val) {
-        TreeNode* temp = root;
 
-        while(temp != NULL) {
-            if(temp->val == val) {
-                return temp;
-            }   
-            else if(temp->val > val) {
-                temp = temp->left;
-            }
-            else if(temp->val < val) {
-                temp = temp->right;
-            }
+        while(root != NULL && root->val != val) {
+            root = val < root->val ? root->left : root->right;
         }
-        return NULL;
+        return root;
     }
 };
+
+//here u can see u are traveling somewhere around height of tree or less than that & we know for BST height is mostly log2 N thus,
+
+//TC = O(Log2 N)
+//SC = O(1)
