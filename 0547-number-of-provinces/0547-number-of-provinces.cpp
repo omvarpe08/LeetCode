@@ -1,33 +1,40 @@
+
 class Solution {
 public:
-    void bfs(int i, vector<vector<int>> isConnected , vector<int>& visited, int n) {
+    void bfs(int i, vector<vector<int>>& isConnected, vector<int>& vis, int n) {
         queue<int> q;
         q.push(i);
-        
+        vis[i] = 1;
+
         while(!q.empty()) {
             int node = q.front();
             q.pop();
-            
-            for(int j=0; j<n; j++) {
-                if(isConnected[node-1][j]==1 && !visited[j+1]) {
-                    q.push(j+1);
-                    visited[j+1] = 1;
+
+            for(int j = 0; j < n; j++) {
+                if(isConnected[node][j] == 1 && !vis[j]) {
+                    vis[j] = 1;
+                    q.push(j);
                 }
             }
         }
-
     }
 
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n = isConnected.size();
-        vector<int> visited(n+1, 0);
-        int cnt = 0;
-        for(int i=1; i<=n; i++){
-            if(!visited[i]) {
-                cnt++;
-                bfs(i, isConnected, visited, n);
+
+        vector<int> vis(n, 0);
+        int provinces = 0;
+
+        for(int i = 0; i < n; i++) {
+            if(!vis[i]) {
+                provinces++;
+                bfs(i, isConnected, vis, n);
             }
         }
-        return cnt;
+
+        return provinces;
     }
 };
+
+//TC = O(N + N^2) = o(N^2)  ...for + we call bfs multiple time through for loop but in total by while & for loop of bfs we take O(N^2) of TC.
+//SC = O(N) + O(N) = O(2N) = O(N)  ..vis + queue
