@@ -179,6 +179,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/omvarpe08/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0547-number-of-provinces](https://github.com/omvarpe08/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -269,6 +270,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/omvarpe08/LeetCode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/omvarpe08/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/omvarpe08/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0547-number-of-provinces](https://github.com/omvarpe08/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -297,6 +299,7 @@
 | [0101-symmetric-tree](https://github.com/omvarpe08/LeetCode/tree/main/0101-symmetric-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/omvarpe08/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/omvarpe08/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0547-number-of-provinces](https://github.com/omvarpe08/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -320,4 +323,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/omvarpe08/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/omvarpe08/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 <!---LeetCode Topics End-->
