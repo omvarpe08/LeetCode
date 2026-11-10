@@ -38,3 +38,5 @@ public:
 
 //TC = O(N + N^2) = o(N^2)  ...for + we call bfs multiple time through for loop but in total by while & for loop of bfs we take O(N^2) of TC.
 //SC = O(N) + O(N) = O(2N) = O(N)  ..vis + queue
+
+//we can also do it by DFS 
